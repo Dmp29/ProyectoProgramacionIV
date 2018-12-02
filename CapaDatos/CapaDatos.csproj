@@ -40,11 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsAsociado.cs" />
     <Compile Include="clsCliente.cs" />
     <Compile Include="clsConexion.cs" />
     <Compile Include="clsPersona.cs" />
     <Compile Include="clsUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Asociado.cs" />
     <Compile Include="Resources\Cliente.cs" />
     <Compile Include="Resources\Persona.cs" />
     <Compile Include="Resources\Usuario.cs" />

@@ -105,5 +105,12 @@ namespace ProyectoPrograIV
             MantCliente.Show();
             this.Close();
         }
+
+        private void mantenimientoDeAsociadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenimientoAsociados MantAsociados = new MantenimientoAsociados();
+            MantAsociados.Show();
+            this.Close();
+        }
     }
 }

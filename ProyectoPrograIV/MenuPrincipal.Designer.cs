@@ -43,6 +43,7 @@
             this.creaciónDeClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mantenimientoDeClientesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.creaciónDeRolesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoDeAsociadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
@@ -134,7 +135,8 @@
             this.mantenimientoDeClientesToolStripMenuItem,
             this.creaciónDeClientesToolStripMenuItem,
             this.mantenimientoDeClientesToolStripMenuItem1,
-            this.creaciónDeRolesToolStripMenuItem});
+            this.creaciónDeRolesToolStripMenuItem,
+            this.mantenimientoDeAsociadosToolStripMenuItem});
             this.módulo3AdministradorToolStripMenuItem.Name = "módulo3AdministradorToolStripMenuItem";
             this.módulo3AdministradorToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
             this.módulo3AdministradorToolStripMenuItem.Text = "Administrador";
@@ -142,37 +144,44 @@
             // creaciónDeUsuariosToolStripMenuItem
             // 
             this.creaciónDeUsuariosToolStripMenuItem.Name = "creaciónDeUsuariosToolStripMenuItem";
-            this.creaciónDeUsuariosToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
+            this.creaciónDeUsuariosToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.creaciónDeUsuariosToolStripMenuItem.Text = "Creación de usuarios";
             this.creaciónDeUsuariosToolStripMenuItem.Click += new System.EventHandler(this.creaciónDeUsuariosToolStripMenuItem_Click);
             // 
             // mantenimientoDeClientesToolStripMenuItem
             // 
             this.mantenimientoDeClientesToolStripMenuItem.Name = "mantenimientoDeClientesToolStripMenuItem";
-            this.mantenimientoDeClientesToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
+            this.mantenimientoDeClientesToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.mantenimientoDeClientesToolStripMenuItem.Text = "Mantenimiento de usuarios";
             this.mantenimientoDeClientesToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoDeClientesToolStripMenuItem_Click);
             // 
             // creaciónDeClientesToolStripMenuItem
             // 
             this.creaciónDeClientesToolStripMenuItem.Name = "creaciónDeClientesToolStripMenuItem";
-            this.creaciónDeClientesToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
+            this.creaciónDeClientesToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.creaciónDeClientesToolStripMenuItem.Text = "Creación de clientes";
             this.creaciónDeClientesToolStripMenuItem.Click += new System.EventHandler(this.creaciónDeClientesToolStripMenuItem_Click);
             // 
             // mantenimientoDeClientesToolStripMenuItem1
             // 
             this.mantenimientoDeClientesToolStripMenuItem1.Name = "mantenimientoDeClientesToolStripMenuItem1";
-            this.mantenimientoDeClientesToolStripMenuItem1.Size = new System.Drawing.Size(219, 22);
+            this.mantenimientoDeClientesToolStripMenuItem1.Size = new System.Drawing.Size(227, 22);
             this.mantenimientoDeClientesToolStripMenuItem1.Text = "Mantenimiento de clientes";
             this.mantenimientoDeClientesToolStripMenuItem1.Click += new System.EventHandler(this.mantenimientoDeClientesToolStripMenuItem1_Click);
             // 
             // creaciónDeRolesToolStripMenuItem
             // 
             this.creaciónDeRolesToolStripMenuItem.Name = "creaciónDeRolesToolStripMenuItem";
-            this.creaciónDeRolesToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
+            this.creaciónDeRolesToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.creaciónDeRolesToolStripMenuItem.Text = "Creación de roles";
             this.creaciónDeRolesToolStripMenuItem.Click += new System.EventHandler(this.creaciónDeRolesToolStripMenuItem_Click);
+            // 
+            // mantenimientoDeAsociadosToolStripMenuItem
+            // 
+            this.mantenimientoDeAsociadosToolStripMenuItem.Name = "mantenimientoDeAsociadosToolStripMenuItem";
+            this.mantenimientoDeAsociadosToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
+            this.mantenimientoDeAsociadosToolStripMenuItem.Text = "Mantenimiento de asociados";
+            this.mantenimientoDeAsociadosToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoDeAsociadosToolStripMenuItem_Click);
             // 
             // cerrarSesiónToolStripMenuItem
             // 
@@ -248,5 +257,6 @@
         private System.Windows.Forms.ToolStripMenuItem mantenimientoDeClientesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem creaciónDeClientesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mantenimientoDeClientesToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientoDeAsociadosToolStripMenuItem;
     }
 }

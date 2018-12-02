@@ -29,3 +29,4 @@ C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\Proyec
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.CreacionCliente.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.MantenimientoUsuarios.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.MantenimientoClientes.resources
+C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.MantenimientoAsociados.resources
