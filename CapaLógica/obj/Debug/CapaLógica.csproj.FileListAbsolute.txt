@@ -1,0 +1,9 @@
+C:\Users\Usuario\source\repos\ProyectoPrograIV\CapaLógica\bin\Debug\CapaLógica.dll
+C:\Users\Usuario\source\repos\ProyectoPrograIV\CapaLógica\bin\Debug\CapaLógica.pdb
+C:\Users\Usuario\source\repos\ProyectoPrograIV\CapaLógica\bin\Debug\CapaDatos.dll
+C:\Users\Usuario\source\repos\ProyectoPrograIV\CapaLógica\bin\Debug\CapaDatos.pdb
+C:\Users\Usuario\source\repos\ProyectoPrograIV\CapaLógica\obj\Debug\CapaLógica.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\ProyectoPrograIV\CapaLógica\obj\Debug\CapaLógica.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ProyectoPrograIV\CapaLógica\obj\Debug\CapaLógica.csproj.CopyComplete
+C:\Users\Usuario\source\repos\ProyectoPrograIV\CapaLógica\obj\Debug\CapaLógica.dll
+C:\Users\Usuario\source\repos\ProyectoPrograIV\CapaLógica\obj\Debug\CapaLógica.pdb
