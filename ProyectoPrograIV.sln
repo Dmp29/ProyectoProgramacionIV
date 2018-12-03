@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\Capa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaLógica", "CapaLógica\CapaLógica.csproj", "{AF0795D5-236B-4765-91F5-15CD04738C30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFProyectoPrograIV", "WCFProyectoPrograIV\WCFProyectoPrograIV.csproj", "{2F96D111-9647-4679-A54A-2C674457E6EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AF0795D5-236B-4765-91F5-15CD04738C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF0795D5-236B-4765-91F5-15CD04738C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF0795D5-236B-4765-91F5-15CD04738C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F96D111-9647-4679-A54A-2C674457E6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F96D111-9647-4679-A54A-2C674457E6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F96D111-9647-4679-A54A-2C674457E6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F96D111-9647-4679-A54A-2C674457E6EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

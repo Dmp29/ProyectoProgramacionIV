@@ -24,13 +24,7 @@ namespace ProyectoPrograIV
             this.Close();
         }
 
-        private void registroDeOperacionesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            RegistroPlanesPago Registro = new RegistroPlanesPago();
-            Registro.Show();
-            this.Close();
-        }
-
+    
         private void registroDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MantenimientoPlanes Mantenimiento = new MantenimientoPlanes();
@@ -38,10 +32,10 @@ namespace ProyectoPrograIV
             this.Close();
         }
 
-        private void realizaciónDePagosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void RegistrodePagosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            RealizacionPagos Pagos = new RealizacionPagos();
-            Pagos.Show();
+            RegistroPagos Registro = new RegistroPagos();
+            Registro.Show();
             this.Close();
         }
 
@@ -96,6 +90,21 @@ namespace ProyectoPrograIV
         {
             MantenimientoAsociados MantAsociados = new MantenimientoAsociados();
             MantAsociados.Show();
+            this.Close();
+        }
+
+        private void registroDePagosToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            
+            RegistroPagos Registro = new RegistroPagos();
+            Registro.Show();
+            this.Close();
+        }
+
+        private void registroDePlanesDePagoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RegistroPlanesPago RegistroPlanesPago = new RegistroPlanesPago();
+            RegistroPlanesPago.Show();
             this.Close();
         }
     }

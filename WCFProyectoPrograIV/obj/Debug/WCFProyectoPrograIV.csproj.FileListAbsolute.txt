@@ -1,0 +1,7 @@
+C:\Users\Usuario\source\repos\ProyectoPrograIV\WCFProyectoPrograIV\bin\WCFProyectoPrograIV.dll.config
+C:\Users\Usuario\source\repos\ProyectoPrograIV\WCFProyectoPrograIV\bin\WCFProyectoPrograIV.dll
+C:\Users\Usuario\source\repos\ProyectoPrograIV\WCFProyectoPrograIV\bin\WCFProyectoPrograIV.pdb
+C:\Users\Usuario\source\repos\ProyectoPrograIV\WCFProyectoPrograIV\obj\Debug\WCFProyectoPrograIV.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\ProyectoPrograIV\WCFProyectoPrograIV\obj\Debug\WCFProyectoPrograIV.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ProyectoPrograIV\WCFProyectoPrograIV\obj\Debug\WCFProyectoPrograIV.dll
+C:\Users\Usuario\source\repos\ProyectoPrograIV\WCFProyectoPrograIV\obj\Debug\WCFProyectoPrograIV.pdb

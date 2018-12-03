@@ -15,7 +15,6 @@ c:\users\usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\Proyec
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.ConsultaPagos.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.CreacionUsuarios.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.MantenimientoPlanes.resources
-C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.RealizacionPagos.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.RegistroAsociados.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.RegistroPlanesPago.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\bin\Debug\CapaDatos.dll
@@ -28,3 +27,7 @@ C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\Proyec
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.MantenimientoUsuarios.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.MantenimientoClientes.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.MantenimientoAsociados.resources
+C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\bin\Debug\WCFProyectoPrograIV.dll
+C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\bin\Debug\WCFProyectoPrograIV.pdb
+C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\bin\Debug\WCFProyectoPrograIV.dll.config
+C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.RegistroPagos.resources
