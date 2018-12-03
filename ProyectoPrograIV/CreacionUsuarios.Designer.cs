@@ -91,6 +91,7 @@
             this.txtTelefono.UseSelectable = true;
             this.txtTelefono.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtTelefono.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefono_KeyPress);
             // 
             // metroLabel4
             // 
@@ -130,6 +131,7 @@
             this.txtApellido2.UseSelectable = true;
             this.txtApellido2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtApellido2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtApellido2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtApellido2_KeyPress);
             // 
             // metroLabel3
             // 
@@ -169,6 +171,7 @@
             this.txtApellido1.UseSelectable = true;
             this.txtApellido1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtApellido1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtApellido1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtApellido1_KeyPress);
             // 
             // metroLabel2
             // 
@@ -208,6 +211,7 @@
             this.txtIdentificacion.UseSelectable = true;
             this.txtIdentificacion.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtIdentificacion.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtIdentificacion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtIdentificacion_KeyPress_1);
             // 
             // metroLabel1
             // 
@@ -262,6 +266,7 @@
             this.cbxGenero.Name = "cbxGenero";
             this.cbxGenero.Size = new System.Drawing.Size(137, 21);
             this.cbxGenero.TabIndex = 6;
+            this.cbxGenero.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cbxGenero_KeyPress);
             // 
             // cbxRol
             // 
@@ -270,6 +275,7 @@
             this.cbxRol.Name = "cbxRol";
             this.cbxRol.Size = new System.Drawing.Size(137, 21);
             this.cbxRol.TabIndex = 7;
+            this.cbxRol.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cbxRol_KeyPress);
             // 
             // txtNombre
             // 
@@ -300,6 +306,7 @@
             this.txtNombre.UseSelectable = true;
             this.txtNombre.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtNombre.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // metroLabel5
             // 

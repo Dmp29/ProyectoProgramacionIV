@@ -108,6 +108,7 @@
             this.txtIdentificacionA.UseSelectable = true;
             this.txtIdentificacionA.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtIdentificacionA.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtIdentificacionA.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtIdentificacionA_KeyPress);
             // 
             // metroLabel2
             // 
@@ -193,6 +194,7 @@
             this.cbxOperacionA.Name = "cbxOperacionA";
             this.cbxOperacionA.Size = new System.Drawing.Size(157, 21);
             this.cbxOperacionA.TabIndex = 52;
+            this.cbxOperacionA.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cbxOperacionA_KeyPress);
             // 
             // RegistroAsociados
             // 

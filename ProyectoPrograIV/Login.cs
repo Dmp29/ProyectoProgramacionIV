@@ -21,6 +21,12 @@ namespace ProyectoPrograIV
             InitializeComponent();
         }
 
+        void LimpiarControles()
+        {
+            txtUsuario.Text = "";
+            txtContraseña.Text = "";
+        }
+
         private void btnIniciar_Click(object sender, EventArgs e)
         {
             try
@@ -38,6 +44,7 @@ namespace ProyectoPrograIV
                 }
                 else
                 {
+                    LimpiarControles();
                     this.DialogResult = DialogResult.None;
                     MetroFramework.MetroMessageBox.Show(this, "Usuario y contraseña invalidos, intentelo de nuevo.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
@@ -46,6 +53,17 @@ namespace ProyectoPrograIV
             {
                 MetroFramework.MetroMessageBox.Show(this, ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            txtUsuario.MaxLength = 9;
+
+            txtContraseña.Text = "";
+
+            txtContraseña.PasswordChar = '*';
+
+            txtContraseña.MaxLength = 9;
         }
     }
 }

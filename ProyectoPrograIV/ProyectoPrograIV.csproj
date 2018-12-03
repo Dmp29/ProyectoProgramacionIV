@@ -66,12 +66,6 @@
     <Compile Include="CreacionCliente.Designer.cs">
       <DependentUpon>CreacionCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="CreacionRoles.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CreacionRoles.Designer.cs">
-      <DependentUpon>CreacionRoles.cs</DependentUpon>
-    </Compile>
     <Compile Include="CreacionUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,12 +83,6 @@
     </Compile>
     <Compile Include="MantenimientoAsociados.Designer.cs">
       <DependentUpon>MantenimientoAsociados.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MantenimientoCatalogos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MantenimientoCatalogos.Designer.cs">
-      <DependentUpon>MantenimientoCatalogos.cs</DependentUpon>
     </Compile>
     <Compile Include="MantenimientoClientes.cs">
       <SubType>Form</SubType>
@@ -152,9 +140,6 @@
     <EmbeddedResource Include="CreacionCliente.resx">
       <DependentUpon>CreacionCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CreacionRoles.resx">
-      <DependentUpon>CreacionRoles.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CreacionUsuarios.resx">
       <DependentUpon>CreacionUsuarios.cs</DependentUpon>
     </EmbeddedResource>
@@ -163,9 +148,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MantenimientoAsociados.resx">
       <DependentUpon>MantenimientoAsociados.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MantenimientoCatalogos.resx">
-      <DependentUpon>MantenimientoCatalogos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenimientoClientes.resx">
       <DependentUpon>MantenimientoClientes.cs</DependentUpon>

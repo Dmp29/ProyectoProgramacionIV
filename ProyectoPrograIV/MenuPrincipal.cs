@@ -38,13 +38,6 @@ namespace ProyectoPrograIV
             this.Close();
         }
 
-        private void mantenimientoDeCatálogosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MantenimientoCatalogos Mantenimiento = new MantenimientoCatalogos();
-            Mantenimiento.Show();
-            this.Close();
-        }
-
         private void realizaciónDePagosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             RealizacionPagos Pagos = new RealizacionPagos();
@@ -62,13 +55,6 @@ namespace ProyectoPrograIV
         private void creaciónDeUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CreacionUsuarios Creacion = new CreacionUsuarios();
-            Creacion.Show();
-            this.Close();
-        }
-
-        private void creaciónDeRolesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            CreacionRoles Creacion = new CreacionRoles();
             Creacion.Show();
             this.Close();
         }
@@ -92,21 +78,21 @@ namespace ProyectoPrograIV
             this.Close();
         }
 
-        private void creaciónDeClientesToolStripMenuItem_Click(object sender, EventArgs e)
+        private void creaciónDeClientesToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             CreacionCliente CreacCliente = new CreacionCliente();
             CreacCliente.Show();
             this.Close();
         }
 
-        private void mantenimientoDeClientesToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void mantenimientoDeClientesToolStripMenuItem2_Click(object sender, EventArgs e)
         {
             MantenimientoClientes MantCliente = new MantenimientoClientes();
             MantCliente.Show();
             this.Close();
         }
 
-        private void mantenimientoDeAsociadosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void mantenimientoDeAsociadosToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             MantenimientoAsociados MantAsociados = new MantenimientoAsociados();
             MantAsociados.Show();

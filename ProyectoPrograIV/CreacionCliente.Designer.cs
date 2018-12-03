@@ -71,6 +71,7 @@
             this.txtCreacIdentificacion.UseSelectable = true;
             this.txtCreacIdentificacion.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtCreacIdentificacion.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtCreacIdentificacion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCreacIdentificacion_KeyPress);
             // 
             // metroLabel1
             // 
@@ -119,6 +120,7 @@
             this.txtCreacNombre.UseSelectable = true;
             this.txtCreacNombre.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtCreacNombre.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtCreacNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCreacNombre_KeyPress);
             // 
             // metroLabel3
             // 
@@ -158,6 +160,7 @@
             this.txtCreacApe1.UseSelectable = true;
             this.txtCreacApe1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtCreacApe1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtCreacApe1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCreacApe1_KeyPress);
             // 
             // metroLabel4
             // 
@@ -197,6 +200,7 @@
             this.txtCreacApe2.UseSelectable = true;
             this.txtCreacApe2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtCreacApe2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtCreacApe2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCreacApe2_KeyPress);
             // 
             // metroLabel5
             // 
@@ -234,6 +238,7 @@
             this.cbxCreacGene.Name = "cbxCreacGene";
             this.cbxCreacGene.Size = new System.Drawing.Size(132, 21);
             this.cbxCreacGene.TabIndex = 13;
+            this.cbxCreacGene.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cbxCreacGene_KeyPress);
             // 
             // CreacionCliente
             // 

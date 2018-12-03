@@ -50,6 +50,8 @@ namespace ProyectoPrograIV
 
         private void RegistroAsociados_Load(object sender, EventArgs e)
         {
+            Validaciones();
+
             cbxOperacionA.DataSource = oAsociado.ObtenerOperacion();
             cbxOperacionA.DisplayMember = "DescripcionOperacion";
             cbxOperacionA.ValueMember = "IdOperacion";
@@ -79,6 +81,37 @@ namespace ProyectoPrograIV
             txtIdentificacionA.Text = String.Empty;
             txtDireccionA.Text = String.Empty;
             cbxOperacionA.SelectedValue = 0;
+        }
+
+        public void Validaciones()
+        {
+            txtNombreEmpresaA.MaxLength = 30;
+            txtIdentificacionA.MaxLength = 12;
+            txtDireccionA.MaxLength = 300;
+        }
+
+        private void txtIdentificacionA_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //Para obligar a que sólo se introduzcan números 
+            if (Char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+              if (Char.IsControl(e.KeyChar)) //permitir teclas de control como retroceso 
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                //el resto de teclas pulsadas se desactivan 
+                e.Handled = true;
+            }
+        }
+
+        private void cbxOperacionA_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
         }
     }
 }

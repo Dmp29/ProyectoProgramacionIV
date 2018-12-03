@@ -141,6 +141,8 @@ namespace ProyectoPrograIV
 
         private void MantenimientoClientes_Load(object sender, EventArgs e)
         {
+            Validaciones();
+
             cbxMantCGenero.DataSource = oCliente.obtenerGenero();
             cbxMantCGenero.DisplayMember = "DescripcionGenero";
             cbxMantCGenero.ValueMember = "IdGenero";
@@ -156,6 +158,114 @@ namespace ProyectoPrograIV
             txtMantCApellido2.Text = dgvMantClientes.CurrentRow.Cells["Apellido2"].Value.ToString();
             cbxMantCGenero.Text = dgvMantClientes.CurrentRow.Cells["Genero"].Value.ToString();
 
+        }
+
+        public void Validaciones()
+        {
+            txtMantBuscar.MaxLength = 12;
+            txtMantCNombre.MaxLength = 30;
+            txtMantCApellido1.MaxLength = 30;
+            txtMantCApellido2.MaxLength = 30;
+        }
+
+        private void txtMantBuscar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //Para obligar a que sólo se introduzcan números 
+            if (Char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+              if (Char.IsControl(e.KeyChar)) //permitir teclas de control como retroceso 
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                //el resto de teclas pulsadas se desactivan 
+                e.Handled = true;
+            }
+        }
+
+        private void txtMantCIdentificacion_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //Para obligar a que sólo se introduzcan números 
+            if (Char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+              if (Char.IsControl(e.KeyChar)) //permitir teclas de control como retroceso 
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                //el resto de teclas pulsadas se desactivan 
+                e.Handled = true;
+            }
+        }
+
+        private void txtMantCNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //Para obligar a que sólo se introduzcan letras 
+            if (Char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            else
+              if (Char.IsControl(e.KeyChar)) //permitir teclas de control como retroceso 
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                //el resto de teclas pulsadas se desactivan 
+                e.Handled = false;
+            }
+        }
+
+        private void txtMantCApellido1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //Para obligar a que sólo se introduzcan letras 
+            if (Char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            else
+              if (Char.IsControl(e.KeyChar)) //permitir teclas de control como retroceso 
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                //el resto de teclas pulsadas se desactivan 
+                e.Handled = false;
+            }
+        }
+
+        private void txtMantCApellido2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //Para obligar a que sólo se introduzcan letras 
+            if (Char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            else
+              if (Char.IsControl(e.KeyChar)) //permitir teclas de control como retroceso 
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                //el resto de teclas pulsadas se desactivan 
+                e.Handled = false;
+            }
+        }
+
+        private void cbxMantCGenero_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
         }
     }
 }

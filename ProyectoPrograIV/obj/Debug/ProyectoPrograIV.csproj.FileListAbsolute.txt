@@ -13,9 +13,7 @@ c:\users\usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\Proyec
 c:\users\usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.exe
 c:\users\usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.pdb
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.ConsultaPagos.resources
-C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.CreacionRoles.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.CreacionUsuarios.resources
-C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.MantenimientoCatalogos.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.MantenimientoPlanes.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.RealizacionPagos.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.RegistroAsociados.resources
