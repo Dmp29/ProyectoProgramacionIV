@@ -1,4 +1,5 @@
-﻿using CapaLógica;
+﻿using CapaDatos.Resources;
+using CapaLógica;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,6 +15,7 @@ namespace ProyectoPrograIV
     public partial class MenuPrincipal : MetroFramework.Forms.MetroForm
     {
         public Personas oPersona = new Personas();
+        public Usuarios oUsuario = new Usuarios();
 
         public MenuPrincipal()
         {
@@ -113,7 +115,12 @@ namespace ProyectoPrograIV
 
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
-            
+         /*   Usuario objUsuario = new Usuario();
+
+            lbRol.Text = objUsuario.DescripcionRol;
+            lbNombre.Text = objUsuario.NombreUsuario;
+
+            oUsuario.consultarRolUsuario(objUsuario);*/
         }
     }
 }

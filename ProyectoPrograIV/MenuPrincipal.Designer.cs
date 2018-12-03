@@ -140,14 +140,14 @@
             // registroDePagosToolStripMenuItem
             // 
             this.registroDePagosToolStripMenuItem.Name = "registroDePagosToolStripMenuItem";
-            this.registroDePagosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.registroDePagosToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.registroDePagosToolStripMenuItem.Text = "Registro de Pagos";
             this.registroDePagosToolStripMenuItem.Click += new System.EventHandler(this.registroDePagosToolStripMenuItem_Click_1);
             // 
             // consultaDePagosToolStripMenuItem
             // 
             this.consultaDePagosToolStripMenuItem.Name = "consultaDePagosToolStripMenuItem";
-            this.consultaDePagosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.consultaDePagosToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.consultaDePagosToolStripMenuItem.Text = "Consulta de Pagos";
             this.consultaDePagosToolStripMenuItem.Click += new System.EventHandler(this.consultaDePagosToolStripMenuItem_Click);
             // 

@@ -11,6 +11,9 @@ namespace CapaDatos
 {
     public class clsUsuario
     {
+        public List<Usuario> ListaUsuario;
+        public clsConexion oCN = new clsConexion();
+
         public bool insertarUsuario(Usuario oUsuario)
         {
             try
@@ -32,9 +35,16 @@ namespace CapaDatos
 
         public DataTable consultarUsuario(string nombreUsuario, string Contrasena)
         {
-            SqlCommand oSQLC = new SqlCommand("Select NombreUsuario, Contrasena From Usuario Where NombreUsuario = '" + nombreUsuario + "' And Contrasena = '" + Contrasena + "'");
-            return new clsConexion().SelectData(oSQLC);
+            try
+            {
+                SqlCommand oSQLC = new SqlCommand("Select NombreUsuario, Contrasena From Usuario Where NombreUsuario = '" + nombreUsuario + "' And Contrasena = '" + Contrasena + "'");
+                return new clsConexion().SelectData(oSQLC);
+            }
+            catch (Exception ex)
+            {
 
+                throw new Exception("No se pudo consultar el usuario", ex);
+            }
         }
 
         public bool eliminarUsuario(string Identificacion)
@@ -55,5 +65,34 @@ namespace CapaDatos
             }
         }
 
+   /*     public void ConsultarRolUsuario(Usuario objUsuario)
+        {
+            try
+            {
+                oCN.StringConexion();
+
+                SqlCommand oSQLC = new SqlCommand("SELECT RO.DescripcionRol, US.NombreUsuario FROM Persona PE JOIN Rol RO ON RO.IdRol = PE.IdRol JOIN Usuario Us ON Us.Identificacion = PE.Identificacion Where RO.DescripcionRol = ro.DescripcionRol AND US.NombreUsuario = us.NombreUsuario");
+
+                oSQLC.CommandType = CommandType.Text;
+
+                oSQLC.Connection = oCN.StringConexion();
+                oCN.OpenConnection();
+                SqlDataReader oSQLDR = oSQLC.ExecuteReader();
+                ListaUsuario = new List<Usuario>();
+                while (oSQLDR.Read())
+                {
+                    objUsuario.DescripcionRol = oSQLDR.GetString(0);
+                    objUsuario.NombreUsuario = oSQLDR.GetString(1);
+                    ListaUsuario.Add(objUsuario);
+                    break;
+                }  
+                oCN.CloseConnection();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("No se pudo consultar el rol del usuario", ex);
+            }
+        }*/
     }
 }
+

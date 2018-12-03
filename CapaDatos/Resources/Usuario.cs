@@ -11,5 +11,6 @@ namespace CapaDatos.Resources
         public string NombreUsuario { get; set; }
         public string Contrasena { get; set; }
         public string Identificacion { get; set; }
+        public string DescripcionRol { get; set; }
     }
 }

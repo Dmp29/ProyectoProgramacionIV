@@ -25,5 +25,11 @@ namespace CapaLógica
         {
             return new clsUsuario().eliminarUsuario(Identificacion);
         }
+
+       /* public void consultarRolUsuario(Usuario objUsuario)
+        {
+            new clsUsuario().ConsultarRolUsuario(objUsuario);
+        }*/
+
     }
 }
