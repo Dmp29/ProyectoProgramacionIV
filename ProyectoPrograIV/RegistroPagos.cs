@@ -30,10 +30,16 @@ namespace ProyectoPrograIV
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
+            txtXML.Text = "";
+
             OpenFileDialog Buscar = new OpenFileDialog();
             if (Buscar.ShowDialog() == DialogResult.OK)
             {
                 txtXML.Text = Buscar.FileName;
+            }
+            else
+            {
+                MetroMessageBox.Show(this, "Por favor, inserte el archivo XML", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, 200);
             }
         }
 
@@ -41,12 +47,24 @@ namespace ProyectoPrograIV
         {
 
             XmlSerializer Sr = new XmlSerializer(typeof(PagoLlenar));
-            XmlTextReader Tx = new XmlTextReader(txtXML.Text);
+            if (txtXML.Text != "")
+            {
+                XmlTextReader Tx = new XmlTextReader(txtXML.Text);
 
-            PagoLlenar oPago = (PagoLlenar)Sr.Deserialize(Tx);
-            Service1 oServicio = new Service1();
+                PagoLlenar oPago = (PagoLlenar)Sr.Deserialize(Tx);
+                Service1 oServicio = new Service1();
 
-            oServicio.insertarPago(oPago);
+                oServicio.insertarPago(oPago);
+
+                txtXML.Text = "";
+                MetroMessageBox.Show(this, "Pago aplicado correctamente", "Realizado", MessageBoxButtons.OK, MessageBoxIcon.Exclamation, 200);
+            }
+            else
+            {
+                MetroMessageBox.Show(this, "Por favor, inserte el archivo XML", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, 200);
+            }
+
+            
         }
 
         private void RegistroPagos_Load(object sender, EventArgs e)

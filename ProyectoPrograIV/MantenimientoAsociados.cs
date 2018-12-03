@@ -24,6 +24,7 @@ namespace ProyectoPrograIV
 
         private void MantenimientoAsociados_Load(object sender, EventArgs e)
         {
+            Validaciones();
             cbxMantAOperacion.DataSource = oAsociado.ObtenerOperacion();
             cbxMantAOperacion.DisplayMember = "DescripcionOperacion";
             cbxMantAOperacion.ValueMember = "IdOperacion";
@@ -33,10 +34,22 @@ namespace ProyectoPrograIV
 
         private void btnBuscarAsociado_Click(object sender, EventArgs e)
         {
-            BuscarAsociados();
-            cbxMantAOperacion.Enabled = true;
-            HabilitarControles(true);
-            txtMantAIdentificacion.ReadOnly = true;
+            try
+            {
+                if (string.IsNullOrEmpty(txtMantABuscar.Text))
+                {
+                    MetroMessageBox.Show(this, "Por favor, inserte los datos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, 200);
+                    return;
+                }
+                BuscarAsociados();
+                cbxMantAOperacion.Enabled = true;
+                HabilitarControles(true);
+                txtMantAIdentificacion.ReadOnly = true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("No se pudo completar su solicitud", ex);
+            }
         }
 
         public bool ModificarAsociado()
@@ -152,10 +165,10 @@ namespace ProyectoPrograIV
 
         public void Validaciones()
         {
-            txtMantABuscar.MaxLength = 12;
-            txtMantANombreEmpresa.MaxLength = 30;
-            txtMantAIdentificacion.MaxLength = 12;
-            txtMantADireccion.MaxLength = 300;
+            txtMantABuscar.MaxLength = 11;
+            txtMantANombreEmpresa.MaxLength = 29;
+            txtMantAIdentificacion.MaxLength = 11;
+            txtMantADireccion.MaxLength = 299;
         }
 
         private void txtMantAIdentificacion_KeyPress(object sender, KeyPressEventArgs e)

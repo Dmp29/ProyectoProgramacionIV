@@ -64,7 +64,7 @@ namespace WCFProyectoPrograIV
                     objPago.Identificacion = DR.GetString(0);
                     objPago.IdAsociado = DR.GetString(1);
                     objPago.IdOperacion = DR.GetString(2);
-                    objPago.Cuota = DR.GetDecimal(3);
+                    objPago.Cuota = DR.GetInt32(3);
                     objPago.MontoPago = DR.GetDecimal(4);
                     objPago.IndParcial = DR.GetInt32(5);
                     objPago.Interes = DR.GetInt32(6);
@@ -103,7 +103,7 @@ namespace WCFProyectoPrograIV
                     objPago.Identificacion = DR.GetString(0);
                     objPago.IdAsociado = DR.GetString(1);
                     objPago.IdOperacion = DR.GetString(2);
-                    objPago.Cuota = DR.GetDecimal(3);
+                    objPago.Cuota = DR.GetInt32(3);
                     objPago.MontoPago = DR.GetDecimal(4);
                     objPago.IndParcial = DR.GetInt32(5);
                     objPago.Interes = DR.GetInt32(6);

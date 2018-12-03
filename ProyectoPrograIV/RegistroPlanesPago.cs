@@ -129,10 +129,10 @@ namespace ProyectoPrograIV
 
         public void Validaciones()
         {
-            txtIdentificacionPA.MaxLength = 12;
-            txtMontoPA.MaxLength =  9;
+            txtIdentificacionPA.MaxLength = 11;
+            txtMontoPA.MaxLength =  8;
             txtPlazoPA.MaxLength = 2;
-            txtIntereses.MaxLength = 12;
+            txtIntereses.MaxLength = 11;
         }
 
         private void txtIdentificacionPA_KeyPress(object sender, KeyPressEventArgs e)

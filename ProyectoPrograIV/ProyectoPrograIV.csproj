@@ -135,12 +135,6 @@
     <Compile Include="RegistroPagos.Designer.cs">
       <DependentUpon>RegistroPagos.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegistroUsuariosSistema.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RegistroUsuariosSistema.Designer.cs">
-      <DependentUpon>RegistroUsuariosSistema.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="ConsultaPagos.resx">
       <DependentUpon>ConsultaPagos.cs</DependentUpon>
     </EmbeddedResource>
@@ -186,9 +180,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegistroPagos.resx">
       <DependentUpon>RegistroPagos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RegistroUsuariosSistema.resx">
-      <DependentUpon>RegistroUsuariosSistema.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Connected Services\ServiceReference1\Service1.wsdl" />
     <None Include="Connected Services\ServiceReference1\Service1.xsd">

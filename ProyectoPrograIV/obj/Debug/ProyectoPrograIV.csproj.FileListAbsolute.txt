@@ -21,7 +21,6 @@ C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\bin\Debug\CapaDa
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\bin\Debug\CapaLógica.dll
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\bin\Debug\CapaDatos.pdb
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\bin\Debug\CapaLógica.pdb
-C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.RegistroUsuariosSistema.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.Login.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.CreacionCliente.resources
 C:\Users\Usuario\source\repos\ProyectoPrograIV\ProyectoPrograIV\obj\Debug\ProyectoPrograIV.MantenimientoUsuarios.resources

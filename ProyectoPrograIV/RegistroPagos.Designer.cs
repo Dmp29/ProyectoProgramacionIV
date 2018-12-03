@@ -98,11 +98,11 @@
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(70, 73);
+            this.metroLabel1.Location = new System.Drawing.Point(61, 73);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(69, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(78, 19);
             this.metroLabel1.TabIndex = 9;
-            this.metroLabel1.Text = "XML Pago";
+            this.metroLabel1.Text = "Inserte XML";
             // 
             // RegistroPagos
             // 

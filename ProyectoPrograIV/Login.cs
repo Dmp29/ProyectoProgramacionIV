@@ -15,6 +15,7 @@ namespace ProyectoPrograIV
     public partial class Login : MetroFramework.Forms.MetroForm
     {
         Usuario oUsuario = new Usuario();
+        Persona oPersona = new Persona();
 
         public Login()
         {
@@ -34,7 +35,7 @@ namespace ProyectoPrograIV
 
                 if (Convert.ToBoolean(new Usuarios().consultarUsuario(txtUsuario.Text.Trim(), txtContraseña.Text.Trim()).Rows.Count > 0 && txtUsuario.Text != "" && txtContraseña.Text != ""))
                 {
-                    MetroFramework.MetroMessageBox.Show(this, "!Bienvenido " + oUsuario.NombreUsuario + "!", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MetroFramework.MetroMessageBox.Show(this, "!Bienvenido" + oUsuario.NombreUsuario + "!", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.DialogResult = DialogResult.OK;
 
                     MenuPrincipal Menu = new MenuPrincipal();
@@ -64,6 +65,7 @@ namespace ProyectoPrograIV
             txtContraseña.PasswordChar = '*';
 
             txtContraseña.MaxLength = 9;
+
         }
     }
 }

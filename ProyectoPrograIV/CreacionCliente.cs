@@ -88,10 +88,10 @@ namespace ProyectoPrograIV
 
         public void Validaciones()
         {
-            txtCreacIdentificacion.MaxLength = 12;
-            txtCreacNombre.MaxLength = 30;
-            txtCreacApe1.MaxLength = 30;
-            txtCreacApe2.MaxLength = 30;
+            txtCreacIdentificacion.MaxLength = 11;
+            txtCreacNombre.MaxLength = 29;
+            txtCreacApe1.MaxLength = 29;
+            txtCreacApe2.MaxLength = 29;
         }
 
         private void txtCreacIdentificacion_KeyPress(object sender, KeyPressEventArgs e)

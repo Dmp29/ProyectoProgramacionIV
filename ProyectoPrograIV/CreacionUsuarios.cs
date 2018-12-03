@@ -120,12 +120,12 @@ namespace ProyectoPrograIV
         // Validaciones
         public void Validaciones()
         {
-            txtIdentificacion.MaxLength = 12;
-            txtNombre.MaxLength = 30;
-            txtApellido1.MaxLength = 30;
-            txtApellido2.MaxLength = 30;
+            txtIdentificacion.MaxLength = 11;
+            txtNombre.MaxLength = 29;
+            txtApellido1.MaxLength = 29;
+            txtApellido2.MaxLength = 29;
             txtTelefono.MaxLength = 8;
-            txtDireccion.MaxLength = 300;
+            txtDireccion.MaxLength = 299;
             txtNombreUsuario.MaxLength = 9;
             txtContraseña.PasswordChar = '*';
             txtContraseña.MaxLength = 9;

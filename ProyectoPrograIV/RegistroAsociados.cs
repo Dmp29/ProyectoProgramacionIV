@@ -85,9 +85,9 @@ namespace ProyectoPrograIV
 
         public void Validaciones()
         {
-            txtNombreEmpresaA.MaxLength = 30;
-            txtIdentificacionA.MaxLength = 12;
-            txtDireccionA.MaxLength = 300;
+            txtNombreEmpresaA.MaxLength = 29;
+            txtIdentificacionA.MaxLength = 11;
+            txtDireccionA.MaxLength = 299;
         }
 
         private void txtIdentificacionA_KeyPress(object sender, KeyPressEventArgs e)

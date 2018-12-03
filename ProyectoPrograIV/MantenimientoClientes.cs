@@ -24,10 +24,22 @@ namespace ProyectoPrograIV
 
         private void btnBuscarCliente_Click(object sender, EventArgs e)
         {
-            BuscarClientes();
-            cbxMantCGenero.Enabled = true;
-            HabilitarControles(true);
-            txtMantCIdentificacion.ReadOnly = true;
+            try
+            {
+                if (string.IsNullOrEmpty(txtMantBuscar.Text))
+                {
+                    MetroMessageBox.Show(this, "Por favor, inserte los datos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, 200);
+                    return;
+                }
+                BuscarClientes();
+                cbxMantCGenero.Enabled = true;
+                HabilitarControles(true);
+                txtMantCIdentificacion.ReadOnly = true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("No se pudo completar su solicitud", ex);
+            }
         }
 
         public bool ModificarCliente()
@@ -162,10 +174,10 @@ namespace ProyectoPrograIV
 
         public void Validaciones()
         {
-            txtMantBuscar.MaxLength = 12;
-            txtMantCNombre.MaxLength = 30;
-            txtMantCApellido1.MaxLength = 30;
-            txtMantCApellido2.MaxLength = 30;
+            txtMantBuscar.MaxLength = 11;
+            txtMantCNombre.MaxLength = 29;
+            txtMantCApellido1.MaxLength = 29;
+            txtMantCApellido2.MaxLength = 29;
         }
 
         private void txtMantBuscar_KeyPress(object sender, KeyPressEventArgs e)

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaLógica;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,8 @@ namespace ProyectoPrograIV
 {
     public partial class MenuPrincipal : MetroFramework.Forms.MetroForm
     {
+        public Personas oPersona = new Personas();
+
         public MenuPrincipal()
         {
             InitializeComponent();
@@ -106,6 +109,11 @@ namespace ProyectoPrograIV
             RegistroPlanesPago RegistroPlanesPago = new RegistroPlanesPago();
             RegistroPlanesPago.Show();
             this.Close();
+        }
+
+        private void MenuPrincipal_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

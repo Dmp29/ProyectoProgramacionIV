@@ -28,13 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnVolver = new MetroFramework.Controls.MetroButton();
             this.dgvCargarPago = new MetroFramework.Controls.MetroGrid();
-            this.btnCargar = new MetroFramework.Controls.MetroButton();
-            this.txtBuscar = new MetroFramework.Controls.MetroTextBox();
             this.IdAsociado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Identificacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IdOperacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,6 +40,8 @@
             this.MontoPago = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IndParcial = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Interes = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnCargar = new MetroFramework.Controls.MetroButton();
+            this.txtBuscar = new MetroFramework.Controls.MetroTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCargarPago)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,14 +64,14 @@
             this.dgvCargarPago.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvCargarPago.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dgvCargarPago.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvCargarPago.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCargarPago.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvCargarPago.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCargarPago.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.IdAsociado,
@@ -81,14 +81,14 @@
             this.MontoPago,
             this.IndParcial,
             this.Interes});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvCargarPago.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvCargarPago.DefaultCellStyle = dataGridViewCellStyle5;
             this.dgvCargarPago.EnableHeadersVisualStyles = false;
             this.dgvCargarPago.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.dgvCargarPago.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -96,59 +96,18 @@
             this.dgvCargarPago.Name = "dgvCargarPago";
             this.dgvCargarPago.ReadOnly = true;
             this.dgvCargarPago.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvCargarPago.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCargarPago.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvCargarPago.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgvCargarPago.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvCargarPago.Size = new System.Drawing.Size(763, 304);
             this.dgvCargarPago.TabIndex = 101;
-            this.dgvCargarPago.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMantClientes_CellContentClick);
-            // 
-            // btnCargar
-            // 
-            this.btnCargar.Location = new System.Drawing.Point(224, 63);
-            this.btnCargar.Name = "btnCargar";
-            this.btnCargar.Size = new System.Drawing.Size(75, 23);
-            this.btnCargar.TabIndex = 102;
-            this.btnCargar.Text = "Cargar";
-            this.btnCargar.UseSelectable = true;
-            this.btnCargar.Click += new System.EventHandler(this.btnCargar_Click);
-            // 
-            // txtBuscar
-            // 
-            // 
-            // 
-            // 
-            this.txtBuscar.CustomButton.Image = null;
-            this.txtBuscar.CustomButton.Location = new System.Drawing.Point(159, 1);
-            this.txtBuscar.CustomButton.Name = "";
-            this.txtBuscar.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtBuscar.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtBuscar.CustomButton.TabIndex = 1;
-            this.txtBuscar.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtBuscar.CustomButton.UseSelectable = true;
-            this.txtBuscar.CustomButton.Visible = false;
-            this.txtBuscar.Lines = new string[0];
-            this.txtBuscar.Location = new System.Drawing.Point(23, 63);
-            this.txtBuscar.MaxLength = 32767;
-            this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.PasswordChar = '\0';
-            this.txtBuscar.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtBuscar.SelectedText = "";
-            this.txtBuscar.SelectionLength = 0;
-            this.txtBuscar.SelectionStart = 0;
-            this.txtBuscar.ShortcutsEnabled = true;
-            this.txtBuscar.Size = new System.Drawing.Size(181, 23);
-            this.txtBuscar.TabIndex = 103;
-            this.txtBuscar.UseSelectable = true;
-            this.txtBuscar.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtBuscar.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // IdAsociado
             // 
@@ -204,6 +163,47 @@
             this.Interes.Name = "Interes";
             this.Interes.ReadOnly = true;
             // 
+            // btnCargar
+            // 
+            this.btnCargar.Location = new System.Drawing.Point(224, 63);
+            this.btnCargar.Name = "btnCargar";
+            this.btnCargar.Size = new System.Drawing.Size(75, 23);
+            this.btnCargar.TabIndex = 102;
+            this.btnCargar.Text = "Cargar";
+            this.btnCargar.UseSelectable = true;
+            this.btnCargar.Click += new System.EventHandler(this.btnCargar_Click);
+            // 
+            // txtBuscar
+            // 
+            // 
+            // 
+            // 
+            this.txtBuscar.CustomButton.Image = null;
+            this.txtBuscar.CustomButton.Location = new System.Drawing.Point(159, 1);
+            this.txtBuscar.CustomButton.Name = "";
+            this.txtBuscar.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtBuscar.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtBuscar.CustomButton.TabIndex = 1;
+            this.txtBuscar.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtBuscar.CustomButton.UseSelectable = true;
+            this.txtBuscar.CustomButton.Visible = false;
+            this.txtBuscar.Lines = new string[0];
+            this.txtBuscar.Location = new System.Drawing.Point(23, 63);
+            this.txtBuscar.MaxLength = 32767;
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.PasswordChar = '\0';
+            this.txtBuscar.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtBuscar.SelectedText = "";
+            this.txtBuscar.SelectionLength = 0;
+            this.txtBuscar.SelectionStart = 0;
+            this.txtBuscar.ShortcutsEnabled = true;
+            this.txtBuscar.Size = new System.Drawing.Size(181, 23);
+            this.txtBuscar.TabIndex = 103;
+            this.txtBuscar.UseSelectable = true;
+            this.txtBuscar.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtBuscar.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtBuscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar_KeyPress);
+            // 
             // ConsultaPagos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -215,6 +215,7 @@
             this.Controls.Add(this.btnVolver);
             this.Name = "ConsultaPagos";
             this.Text = "Consulta de Pagos";
+            this.Load += new System.EventHandler(this.ConsultaPagos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCargarPago)).EndInit();
             this.ResumeLayout(false);
 
